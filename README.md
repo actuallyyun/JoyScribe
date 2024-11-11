@@ -1,6 +1,6 @@
 ## About
 
-This tool transcribes audio to text using OpenAI's (Speech to text API)[https://platform.openai.com/docs/guides/speech-to-text], and post process it using [Text generation API](https://platform.openai.com/docs/guides/text-generation).
+This tool transcribes audio to text using OpenAI's [Speech to text API](https://platform.openai.com/docs/guides/speech-to-text), and post process it using [Text generation API](https://platform.openai.com/docs/guides/text-generation).
 
 ## Getting started
 
