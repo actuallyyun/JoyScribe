@@ -35,7 +35,7 @@ def segment_audio(audio_file,output_dir,duration):
         os.makedirs(output_dir)
 
     while start_time<len(audio_file):
-        print(f"Segementing ${i+1}st audio")
+        print(f"Segementing audio {i+1}")
         segment=audio_file[start_time:start_time+duration]
         segment.export(os.path.join(output_dir, f"segemented_{i:02d}.mp3"), format="mp3")
         start_time+=duration
